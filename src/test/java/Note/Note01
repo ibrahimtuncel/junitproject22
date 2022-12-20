@@ -1,0 +1,25 @@
+Jubitproject22, frameworktur.
+*** .idea=> intelij ye aittir. projenin spesifik bilgileri bulunur
+değiştirilmemeli.
+*** src==> source folder klasorudur. Src class ve methot olusturmak icin
+kullanılır. Bu class ve methotlar developer framework ve tester
+framework için olusturulabilir.
+***main==>  klasoru Developer kullanır. kod geliştirme
+***test==> klasoru test scriptleri yasılır tester kullanır.
+***pom. ml==> maven projedeki en önemli dosyadir.
+dependencies, plugins vb configurationslar eklenir.
+***eksternal Libraries==> import veya download edilen libraries/jar
+flies/plugins/dependencies eklenince burada depolanır.
+
+@Test: test case olusturmak icin "@Test" notation kullanılır.Test
+case create ve run için kullanılır.
+@Before: bir methot run etmeden önce ön kosul olarak run edilmesi
+istenilen kodlar yasılır.Her @Test anotationdandan önce calisir
+@After: Her @Test anotationdandan sonra calisir.Tekrar eden son kosul
+ları yasdırır.
+
+
+@Test : create a test case. This let us create and run test cases
+@Before : Runs before each @Test annotation . Used for repeated precondition
+@After : Runs after each @Test annotation. Used for repeated post condition
+@Test, @Before, @BeforeClass, @After, @AfterClass, @Ignore
