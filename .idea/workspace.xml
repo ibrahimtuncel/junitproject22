@@ -5,27 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45878186-cc3e-4bed-9810-77bcce344bdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Note/Note01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Note/Note02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day01_C1_FirstMavenClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day01_C2_FirstJunitClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day02_C2_LocatorsGiris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day02_C4_xpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C5_GoogleAramaTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C6_Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C7_JavaFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C10_HesapOlusturma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C8_RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C9_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day05_C11_Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/deneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C12_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C13_IframeOrnek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C14_WindowHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C15_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day06_C16_Actions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/deneme2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/arcane/Day05_C11_Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day05_C11_Alert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +45,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.deneme.Test1">
-    <configuration name="Day04_C10_HesapOlusturma.hesapOlusturma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.deneme2.language">
+    <configuration name="Day06_C15_Actions.contextClickMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -68,14 +55,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day04_C10_HesapOlusturma" />
-      <option name="METHOD_NAME" value="hesapOlusturma" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day06_C15_Actions" />
+      <option name="METHOD_NAME" value="contextClickMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05_C11_Alert.sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day06_C16_Actions2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -84,29 +71,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
-      <option name="METHOD_NAME" value="sendKeysAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="deneme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitproject22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.arcane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.deneme" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day06_C16_Actions2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deneme.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day06_C16_Actions2.hoverOver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +86,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.deneme" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day06_C16_Actions2" />
+      <option name="METHOD_NAME" value="hoverOver" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deneme.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="deneme2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +102,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.deneme" />
-      <option name="METHOD_NAME" value="Test1" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.deneme2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deneme2.language" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitproject22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arcane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arcane" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.deneme2" />
+      <option name="METHOD_NAME" value="language" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.deneme.Test1" />
-        <item itemvalue="JUnit.deneme" />
-        <item itemvalue="JUnit.deneme.Test" />
-        <item itemvalue="JUnit.Day04_C10_HesapOlusturma.hesapOlusturma" />
-        <item itemvalue="JUnit.Day05_C11_Alert.sendKeysAlert" />
+        <item itemvalue="JUnit.deneme2.language" />
+        <item itemvalue="JUnit.deneme2" />
+        <item itemvalue="JUnit.Day06_C16_Actions2.hoverOver" />
+        <item itemvalue="JUnit.Day06_C16_Actions2" />
+        <item itemvalue="JUnit.Day06_C15_Actions.contextClickMethod" />
       </list>
     </recent_temporary>
   </component>

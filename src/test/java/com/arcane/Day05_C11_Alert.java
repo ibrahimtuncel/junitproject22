@@ -2,6 +2,7 @@ package com.arcane;
 
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -71,6 +72,10 @@ public class Day05_C11_Alert {
         Assert.assertEquals("You entered: Hello World",result);
         System.out.println(result);
 
+    }
+    @After
+    public void after(){
+        driver.close();
     }
 
 
