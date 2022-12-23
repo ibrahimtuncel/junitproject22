@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -24,7 +25,7 @@ public class deneme2 {
         driver.manage().window().maximize();
 
     }
-    @Test
+   /* @Test
     public void language() throws InterruptedException {
 //    1- Given kullanici  https://www.amazon.com/ adresine gider
         driver.get("https://www.amazon.com/");
@@ -57,5 +58,53 @@ public class deneme2 {
         System.out.println(driver.findElement(By.xpath("//h1")).getText());
 
     }
+   @Test
+   public void keyUpDown(){
+       driver.get("https://www.google.com");
+       // if you see cokies then add this line
+       //driver.findElement(By.xpath("//*[@id='L2AGLb']")).click();
+       WebElement searchBox = driver.findElement(By.xpath("//input[@name ='q']"));
+       //searchBox.SendKeys("iPhone X prices")
+       Actions actions = new Actions(driver);
+
+       actions.
+               keyDown(searchBox, Keys.SHIFT).//press on shift button
+               sendKeys("iPhone X prices").//type on in the element
+               keyUp(searchBox,Keys.SHIFT).//unpress on the shift button
+               sendKeys(" too expensive"+ Keys.ENTER).
+               build().//build is optionally used to make perform stronger.Without build(), this will work
+               perform();
+
+
+   }*/
+   @Test
+   public void scrollUpDown() throws InterruptedException {
+
+       driver.get("https://www.amazon.com/");
+
+       Actions actions = new Actions(driver);
+        /*
+        Page_Down-> scroll down the page
+        Arrow_Down -> scroll down the page
+        Page_UP-> scroll up
+        Arrow_Up -> scroll up
+         */
+       actions.
+               sendKeys(Keys.PAGE_DOWN).//Page_Down-> scroll down the page
+               perform();
+       Thread.sleep(3000);
+       actions.
+               sendKeys(Keys.PAGE_DOWN).
+               perform();// it does twice
+       //Arrow_Down scrolls the page down less than Page_Down
+       actions.sendKeys(Keys.ARROW_DOWN).perform();
+       Thread.sleep(3000);
+       actions.sendKeys(Keys.PAGE_UP).perform();
+       Thread.sleep(3000);
+       /*ARROW_UP moves the page up a little bit*/
+       actions.sendKeys(Keys.ARROW_UP).perform();
+
+
+   }
 
 }
