@@ -5,13 +5,11 @@ import org.apache.hc.core5.http.io.SessionOutputBuffer;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class deneme2 {
@@ -77,34 +75,21 @@ public class deneme2 {
 
 
    }*/
-   @Test
-   public void scrollUpDown() throws InterruptedException {
+    @Test
+    public void cookies(){
+//        -Go to amazon  and automate the tasks
+            driver.get("https://www.amazon.com");
+//        1. Find the total number of cookies
+            // getCookies() returns all of the cookies in the browser
+            Set<Cookie> allCookies = driver.manage().getCookies();
+            int numOfCookies = allCookies.size();
+            System.out.println("Number of Cookies => "+ numOfCookies);
 
-       driver.get("https://www.amazon.com/");
+//        2. Print all the cookies
+            for (Cookie eachCookie : allCookies){
+                System.out.println("Cookie Names => "+eachCookie.getName());
+                System.out.println("Cookie Value => "+ eachCookie.getValue());
+            }
+    }
 
-       Actions actions = new Actions(driver);
-        /*
-        Page_Down-> scroll down the page
-        Arrow_Down -> scroll down the page
-        Page_UP-> scroll up
-        Arrow_Up -> scroll up
-         */
-       actions.
-               sendKeys(Keys.PAGE_DOWN).//Page_Down-> scroll down the page
-               perform();
-       Thread.sleep(3000);
-       actions.
-               sendKeys(Keys.PAGE_DOWN).
-               perform();// it does twice
-       //Arrow_Down scrolls the page down less than Page_Down
-       actions.sendKeys(Keys.ARROW_DOWN).perform();
-       Thread.sleep(3000);
-       actions.sendKeys(Keys.PAGE_UP).perform();
-       Thread.sleep(3000);
-       /*ARROW_UP moves the page up a little bit*/
-       actions.sendKeys(Keys.ARROW_UP).perform();
-
-
-   }
-
-}
+    }
